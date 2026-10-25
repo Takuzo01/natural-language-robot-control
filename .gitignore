@@ -1,0 +1,47 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Development snapshots (preserved locally; no LiDAR safety stop)
+/robot_controller_backup.py
+/robot_controller_before_scan.py
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.ssh/
+*.pem
+*.key
+.vscode/
+.idea/
+
+# ROS / colcon output, recordings, and large local assets
+build/
+install/
+log/
+logs/
+*.log
+*.bag
+*.db3
+*.mcap
+*.mp4
+*.mov
+*.webm
+models/
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*~
+*.swp

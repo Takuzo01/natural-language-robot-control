@@ -1,0 +1,3 @@
+# pipで追加する外部パッケージはありません（HTTP通信は標準ライブラリurllib）。
+# rclpy / geometry_msgs / nav_msgs / sensor_msgsはROS 2 Jazzyから導入します。
+# 実行前にROS 2とTurtleBot3ワークスペースのsetup.bashを読み込んでください。
